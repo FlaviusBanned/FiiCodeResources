@@ -1,0 +1,244 @@
+[
+    {
+      "achievement_id": 1,
+      "name": "Rookie Rider",
+      "description": "Complete your first ride with us.",
+      "condition": {
+        "rides": 1
+      },
+      "badge": "Rookie Badge"
+    },
+    {
+      "achievement_id": 2,
+      "name": "Eco Explorer",
+      "description": "Complete 10 rides using eco-friendly vehicles.",
+      "condition": {
+        "rides": 10,
+        "eco_rides": true
+      },
+      "badge": "Eco Explorer Badge"
+    },
+    {
+      "achievement_id": 3,
+      "name": "Kilometer Conqueror",
+      "description": "Reach a total of 100 kilometers ridden.",
+      "condition": {
+        "km": 100
+      },
+      "badge": "Kilometer Conqueror Badge"
+    },
+    {
+      "achievement_id": 4,
+      "name": "Green Initiator",
+      "description": "Achieve the rank of Eco Pioneer.",
+      "condition": {
+        "rank": "Eco Pioneer"
+      },
+      "badge": "Green Initiator Badge"
+    },
+    {
+      "achievement_id": 5,
+      "name": "Giver of Good",
+      "description": "Complete 5 rides and make a charitable donation.",
+      "condition": {
+        "rides": 5,
+        "charity_donation": true
+      },
+      "badge": "Charity Giver Badge"
+    },
+    {
+      "achievement_id": 6,
+      "name": "Carbon Crusher",
+      "description": "Complete 100 eco-friendly rides.",
+      "condition": {
+        "eco_rides": true,
+        "rides": 100
+      },
+      "badge": "Carbon Crusher Badge"
+    },
+    {
+      "achievement_id": 7,
+      "name": "Eco Avenger",
+      "description": "Ride 200 kilometers on eco-friendly vehicles.",
+      "condition": {
+        "eco_rides": true,
+        "km": 200
+      },
+      "badge": "Eco Avenger Badge"
+    },
+    {
+      "achievement_id": 11,
+      "name": "Green Commute Hero",
+      "description": "Complete 50 eco-friendly rides.",
+      "condition": {
+        "eco_rides": true,
+        "rides": 50
+      },
+      "badge": "Green Commute Hero Badge"
+    },
+    {
+      "achievement_id": 12,
+      "name": "Speed Demon",
+      "description": "Complete 10 rides in under 30 minutes each.",
+      "condition": {
+        "rides": 10,
+        "ride_time_limit": 30
+      },
+      "badge": "Speed Demon Badge"
+    },
+    {
+      "achievement_id": 13,
+      "name": "Charitable Champion",
+      "description": "Donate to charity 10 times.",
+      "condition": {
+        "charity_donations": 10
+      },
+      "badge": "Charitable Champion Badge"
+    },
+    {
+      "achievement_id": 14,
+      "name": "Sustainability Advocate",
+      "description": "Complete 500 kilometers using eco-friendly rides.",
+      "condition": {
+        "eco_rides": true,
+        "km": 500
+      },
+      "badge": "Sustainability Advocate Badge"
+    },
+    {
+      "achievement_id": 15,
+      "name": "World Traveler",
+      "description": "Complete a total of 1000 kilometers.",
+      "condition": {
+        "km": 1000
+      },
+      "badge": "World Traveler Badge"
+    },
+    {
+      "achievement_id": 16,
+      "name": "Weekend Warrior",
+      "description": "Complete 20 rides during weekends.",
+      "condition": {
+        "rides": 20,
+        "ride_time": "weekend"
+      },
+      "badge": "Weekend Warrior Badge"
+    },
+    {
+      "achievement_id": 17,
+      "name": "Ride Royalty",
+      "description": "Complete 50 rides with at least 80% satisfaction rating.",
+      "condition": {
+        "rides": 50,
+        "satisfaction_rating": 80
+      },
+      "badge": "Ride Royalty Badge"
+    },
+    {
+      "achievement_id": 18,
+      "name": "Green Ambassador",
+      "description": "Share your sustainable journey on social media.",
+      "condition": {
+        "social_shares": 3
+      },
+      "badge": "Green Ambassador Badge"
+    },
+    {
+      "achievement_id": 21,
+      "name": "Sustainable Explorer",
+      "description": "Explore 5 new eco-friendly routes.",
+      "condition": {
+        "eco_rides": true,
+        "new_routes": 5
+      },
+      "badge": "Sustainable Explorer Badge"
+    },
+    {
+      "achievement_id": 22,
+      "name": "Rider of the Month",
+      "description": "Be awarded Rider of the Month for top rides.",
+      "condition": {
+        "award": "Rider of the Month"
+      },
+      "badge": "Rider of the Month Badge"
+    },
+    {
+      "achievement_id": 23,
+      "name": "Green Route Master",
+      "description": "Complete 100 rides on designated eco-friendly routes.",
+      "condition": {
+        "rides": 100,
+        "eco_route": true
+      },
+      "badge": "Green Route Master Badge"
+    },
+    {
+      "achievement_id": 24,
+      "name": "Ultimate Eco Rider",
+      "description": "Complete 1000 eco-friendly rides.",
+      "condition": {
+        "eco_rides": true,
+        "rides": 1000
+      },
+      "badge": "Ultimate Eco Rider Badge"
+    },
+    {
+      "achievement_id": 25,
+      "name": "Zero Emissions Achiever",
+      "description": "Achieve zero emissions on all your rides for 1 month.",
+      "condition": {
+        "emissions": "zero",
+        "time_frame": "1 month"
+      },
+      "badge": "Zero Emissions Achiever Badge"
+    },
+    {
+      "achievement_id": 26,
+      "name": "Nature’s Ally",
+      "description": "Complete 50 rides through natural reserves or green spaces.",
+      "condition": {
+        "rides": 50,
+        "route_type": "green_space"
+      },
+      "badge": "Nature’s Ally Badge"
+    },
+    {
+      "achievement_id": 27,
+      "name": "Health Enthusiast",
+      "description": "Complete 100 rides and achieve a fitness goal.",
+      "condition": {
+        "rides": 100,
+        "fitness_goal": true
+      },
+      "badge": "Health Enthusiast Badge"
+    },
+    {
+      "achievement_id": 28,
+      "name": "Sustainability Leader",
+      "description": "Be a leader in sustainable mobility within the community.",
+      "condition": {
+        "community_leader": true
+      },
+      "badge": "Sustainability Leader Badge"
+    },
+    {
+      "achievement_id": 29,
+      "name": "Electric Hero",
+      "description": "Complete 50 rides using electric vehicles.",
+      "condition": {
+        "rides": 50,
+        "vehicle_type": "electric"
+      },
+      "badge": "Electric Hero Badge"
+    },
+    {
+      "achievement_id": 30,
+      "name": "Climate Champion",
+      "description": "Reduce your carbon footprint by 100% over time.",
+      "condition": {
+        "carbon_reduction": "100%"
+      },
+      "badge": "Climate Champion Badge"
+    }
+  ]
+  
